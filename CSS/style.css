@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width:1200px;
+    height:477px;
+    margin:auto;
+    background: url(../images/logo.png) no-repeat 150px 44px,
+                url(../images/header_white_line_bg.png) no-repeat center 20px,
+                url(../images/header_bg.jpg) no-repeat;
+                position: relative;
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    top:72px;
+    right:112px;
+}
+header ul li{
+    float: left;
+    margin-right:38px;
+}
+header ul li a{
+    font-family: lora;
+    font-size:20px;
+    color:#000;
+    text-decoration:none;
+
+}
+header ul li a:hover{
+    color:#c53005;
+    text-decoration: underline;
+}
+header h1{
+    text-align: center;
+    padding-top:185px;
+    font-family: lora;
+    font-size: 80px;
+    color:#fff;
+    line-height:67px;
+    font-weight: 500px;
+}
+section{
+    width: 1200px;
+    height: 290px;
+    margin: auto;
+    background: #f2f2f2 url(../images/section_bottom_line.png) no-repeat center bottom;
+}
+.box{
+    width: 960px;
+    height: 250px;
+    padding: 20px 0;
+    margin:auto;
+}
+.item{
+  width: 240px;
+  height: 250px;
+  float: left;
+  background: url(../images/section_v_line.jpg) no-repeat;
+  text-align: center;
+}
+.item:nth-child(1){
+    background: none;
+}
+.item h2{
+    font-family: lora;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.item a{
+    display: block;
+    width:101px;
+    height:38px;
+    border:1px solid #c2c2c2;
+    background: url(../images/button_bg_05.jpg);
+    border-radius: 6px;
+    margin:auto;
+    line-height: 38px;
+    font-family: Trebuchet MS;
+    font-size:14px;
+    color:#696969;
+    text-decoration: none;
+    margin-top:20px;
+}
+.item a:hover{
+    text-decoration: underline;
+}
+article{
+    width: 1200px;
+    height:440px;
+    margin:auto;
+}
+.content{
+    width: 900px;
+    height:345px;
+    padding-top:45px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+.left{
+    width: 540px;
+    height: inherit;
+    float:left;
+}
+.right{
+    width: 288px;
+    height: inherit;
+    float:right;
+}
+.left h2{
+    font-family: lora;
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+}
+.left h3{
+    font-family: lora;
+    font-size: 17px;
+    font-style: italic;
+    color: #8c8c8c;
+    margin-bottom: 29px;
+}
+.left p{
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color: #696969;
+    margin-bottom: 30px;
+}
+.left p a{
+    color:#c53005;
+}
+#readmore{
+     display: block;
+    width:101px;
+    height:38px;
+    border:1px solid #c2c2c2;
+    background: url(../images/button_bg_05.jpg);
+    border-radius: 6px;
+    line-height: 38px;
+    font-family: Trebuchet MS;
+    font-size:14px;
+    color:#696969;
+    text-decoration: none;
+    margin-top:20px;
+    text-align:center;
+}
+.news a{
+    position:absolute;
+    padding-top:12px;
+    padding-left:31px;
+    font-family: Trebuchet;
+    font-size: 14px;
+    color:#c53005;
+}
+.right h2{
+    font-family: lora;
+    font-size: 30px;
+    color: #000;
+    font-weight:400;
+    margin-bottom: 40px;
+    border-bottom:1px solid #e5e5e5;
+}
+.news p{
+    font-family: Trebuchet;
+    font-size: 14px;
+    color:#696969;
+    display: inline-block;
+    position:absolute;
+    padding-top: 38px;
+    padding-left:31px;
+}
+.news img{
+    margin-bottom: 20px;
+}
+.fbox{
+    width:1200px;
+    height: 155px;
+    margin: auto;
+    background: #f2f2f2 url(../images/footer_top_line.png)no-repeat center top;
+
+}
+.follow{
+    float: right;
+    width: 288px;
+    margin-right:150px;
+    margin-top: 35px;
+}
+.follow img{
+padding-top:24px;
+}
+.follow h3{
+    font-family: lora;
+    font-size: 20px;
+    font-weight: 400;
+    color:#000;
+}
+
+.link{
+    float: left;
+    width: 540px;
+    margin-left: 150px;
+    margin-top:35px;
+}
+.link p{
+    font-family: lora;
+    font-size: 14px;
+    color:#000;
+    padding-top: 24px;
+}
+.link a{
+    color:#c53005;
+}
+.link h3{
+    font-family: lora;
+    font-size: 20px;
+    color: #9b9b9b;
+}
+.colortext{
+    color:#000;
+}
